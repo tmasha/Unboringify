@@ -54,12 +54,11 @@ for slide in presentation.slides:
                 img_file.write(image.blob)
     info.append({'id' : id, 'text' : text, 'image' : image_info})
 
-json_path = os.path.join(foldername, '.json')
+json_path = os.path.join(foldername, 'data.json')
 # clear the file
 with open(json_path, 'w'):
     pass
 for thing in info:
     print(thing)
     with open(json_path,'a') as json_file:
-        json.dump(thing, json_file)
-        json_file.write('\n')
+        json.dump(thing, json_file, indent=4)
