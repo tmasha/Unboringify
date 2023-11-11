@@ -10,19 +10,14 @@ presentation = Presentation(filename)
 info = []
 id = 0
 
-
-
 for slide in presentation.slides:
     
     id += 1
     title = ''
     textBoxes = []
     for shape in slide.shapes:
-        if shape.has_text_frame and shape.placeholder_format.idx == 0:
-            title = shape.text
-        elif shape.has_text_frame:
+        if shape.has_text_frame:
             textBoxes.append(shape.text)
-    text = {'title' : title, 'textboxes' : textBoxes}
 
     image_info = []
     image_number = 0
@@ -35,13 +30,10 @@ for slide in presentation.slides:
             image_path = os.path.join(foldername, image_filename)
             with open(image_path, 'wb') as img_file:
                 img_file.write(image.blob)
-    info.append({'id' : id, 'text' : text, 'images' : image_info})
+    info.append({'id' : id, 'text' : textBoxes, 'images' : image_info})
 
 json_path = os.path.join(foldername, 'data.json')
 # clear the file
-with open(json_path, 'w'):
-    pass
-for thing in info:
-    print(thing)
-    with open(json_path,'a') as json_file:
-        json.dump(thing, json_file, indent=4)
+with open(json_path, 'w') as json_file:
+    json.dump(info, json_file, indent=4)
+    
