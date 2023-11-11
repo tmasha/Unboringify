@@ -18,7 +18,7 @@ slides: [
 from pptx import Presentation
 import os, json
 
-filename = 'capsher.pptx'
+filename = 'testCase.pptx'
 foldername = filename[:-5] + '_data'
 if not os.path.exists(foldername):
     os.mkdir(foldername)
