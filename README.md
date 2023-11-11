@@ -11,7 +11,7 @@ Are you tired of students skipping your classes because they are too boring? Hav
 ✰ Step 2: Unboringify will generate a better presentation for you.
 
 ## 🤝 Contributors
-✰ Thomas Masha
-✰ Christopher Liu
-✰ Namson Pham
+✰ Thomas Masha<br>
+✰ Christopher Liu<br>
+✰ Namson Pham<br>
 ✰ Zack Zhu
