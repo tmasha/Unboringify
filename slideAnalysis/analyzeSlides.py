@@ -18,7 +18,7 @@ for slide in presentation.slides:
     title = ''
     textBoxes = []
     for shape in slide.shapes:
-        if shape.shape_type == 1:
+        if shape.has_text_frame and shape.placeholder_format.idx == 0:
             title = shape.text
         elif shape.has_text_frame:
             textBoxes.append(shape.text)

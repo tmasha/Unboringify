@@ -1,9 +1,8 @@
 {
     "id": 1,
     "text": {
-        "title": "",
+        "title": "Test Case",
         "textboxes": [
-            "Test Case",
             "By Thomas"
         ]
     },
@@ -11,9 +10,8 @@
 }{
     "id": 2,
     "text": {
-        "title": "",
+        "title": "Basic slide with text:",
         "textboxes": [
-            "Basic slide with text:",
             "Hi, my name is Thomas and I am writing a test case! It has multiple sentences. If this text ends up where it is supposed to be, I will know that my code works. Yay! ^D^"
         ]
     },
@@ -21,9 +19,8 @@
 }{
     "id": 3,
     "text": {
-        "title": "",
+        "title": "Bullet points:",
         "textboxes": [
-            "Bullet points:",
             "C++\nHow to read a file\nObject-oriented programming"
         ]
     },
@@ -31,9 +28,8 @@
 }{
     "id": 4,
     "text": {
-        "title": "",
+        "title": "Slide with Image:",
         "textboxes": [
-            "Slide with Image:",
             "This is the C++ logo. Wowzers!"
         ]
     },
