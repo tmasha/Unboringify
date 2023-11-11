@@ -1,5 +1,6 @@
-import os, tensorflow, keras
+import os, json
+path = os.getcwd() + '/testCase_data/data.json'
 
-base_model = VGG16()
-image_model = Model(inputs=base_model.inputs(), outputs=base_model.layers[-2].output())
+with open(path, 'r') as file:
+    data = json.load(file)
 
