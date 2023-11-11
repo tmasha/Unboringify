@@ -1,4 +1,8 @@
 {
-  "title": "Start now",
-  "text": "Click the get started button to start generating your personalized for fun presentations!!!"
+    "title": "Start now",
+    "text": "Click the generate button to start generating your personalized for fun presentations!!!",
+    "button": {
+        "text": "Generate",
+        "link": "http://www.google.com"
+    }
 }
