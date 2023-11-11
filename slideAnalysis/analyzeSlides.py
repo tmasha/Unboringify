@@ -1,20 +1,3 @@
-'''
-
-{
-slides: [
- {id:1
-  message:"the summary of slide 1",
-  image:"the summary of image contents in slide 1"
- },
- {id:2
-  message:"the summary of slide 2",
-  image:"the summary of image contents in slide 2"
- },
-]
-}
-
-'''
-
 from pptx import Presentation
 import os, json
 
