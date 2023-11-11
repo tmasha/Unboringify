@@ -1,31 +1,36 @@
-{
-    "id": 1,
-    "text": [
-        "Test Case",
-        "By Thomas"
-    ],
-    "images": []
-}{
-    "id": 2,
-    "text": [
-        "Basic slide with text:",
-        "Hi, my name is Thomas and I am writing a test case! It has multiple sentences. If this text ends up where it is supposed to be, I will know that my code works. Yay! ^D^"
-    ],
-    "images": []
-}{
-    "id": 3,
-    "text": [
-        "Bullet points:",
-        "C++\nHow to read a file\nObject-oriented programming"
-    ],
-    "images": []
-}{
-    "id": 4,
-    "text": [
-        "Slide with Image:",
-        "This is the C++ logo. Wowzers!"
-    ],
-    "images": [
-        "slide4-image1.png"
-    ]
-}
+[
+    {
+        "id": 1,
+        "text": [
+            "Test Case",
+            "By Thomas"
+        ],
+        "images": []
+    },
+    {
+        "id": 2,
+        "text": [
+            "Basic slide with text:",
+            "Hi, my name is Thomas and I am writing a test case! It has multiple sentences. If this text ends up where it is supposed to be, I will know that my code works. Yay! ^D^"
+        ],
+        "images": []
+    },
+    {
+        "id": 3,
+        "text": [
+            "Bullet points:",
+            "C++\nHow to read a file\nObject-oriented programming"
+        ],
+        "images": []
+    },
+    {
+        "id": 4,
+        "text": [
+            "Slide with Image:",
+            "This is the C++ logo. Wowzers!"
+        ],
+        "images": [
+            "slide4-image1.png"
+        ]
+    }
+]

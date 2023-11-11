@@ -10,8 +10,6 @@ presentation = Presentation(filename)
 info = []
 id = 0
 
-
-
 for slide in presentation.slides:
     
     id += 1
@@ -36,9 +34,6 @@ for slide in presentation.slides:
 
 json_path = os.path.join(foldername, 'data.json')
 # clear the file
-with open(json_path, 'w'):
-    pass
-for thing in info:
-    print(thing)
-    with open(json_path,'a') as json_file:
-        json.dump(thing, json_file, indent=4)
+with open(json_path, 'w') as json_file:
+    json.dump(info, json_file, indent=4)
+    
