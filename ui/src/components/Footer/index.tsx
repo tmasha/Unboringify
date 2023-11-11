@@ -119,17 +119,18 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
+                <h1 className="logo">Unboringify</h1>
+                {/* <SvgIcon
                   src="logo.svg"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
-                />
+                /> */}
               </LogoContainer>
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/tmasha/Unboringify/tree/main"
                 src="github.svg"
               />
               <SocialLink
@@ -140,10 +141,10 @@ const Footer = ({ t }: { t: TFunction }) => {
                 href="https://www.linkedin.com/in/lasha-kakabadze/"
                 src="linkedin.svg"
               />
-              <SocialLink
+              {/* <SocialLink
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
-              />
+              /> */}
               <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"

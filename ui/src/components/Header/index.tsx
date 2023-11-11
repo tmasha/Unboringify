@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
-import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+// import { SvgIcon } from "../../common/SvgIcon";
 import {
   HeaderSection,
   LogoContainer,
@@ -59,7 +59,8 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <h1 className="logo">Unboringify</h1>
+            {/* <SvgIcon src="logo.svg" width="101px" height="64px" /> */}
           </LogoContainer>
           <NotHidden>
             <MenuItem />

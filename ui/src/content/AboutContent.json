@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Fun, Fast, and Easy",
+  "text": "Redefine presentations with a click of a button. No more boring presentations. No more boring slides. No more boring Professors.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Engage Students",
+      "content": "Unboringify aims to increase student engagement in the classroom. We want to make learning fun again.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Benefit Instructors",
+      "content": "We want to make the lives of instructors easier. We want to make it easier for them to create engaging presentations.",
       "icon": "notes.svg"
     }
   ]

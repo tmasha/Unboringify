@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
     @font-face {
         font-family: "Motiva Sans Light";
@@ -14,6 +15,11 @@ export const Styles = createGlobalStyle`
         font-style: normal;
     }
 
+    @font-face {
+        font-family: 'Yeasty';
+        src: url("/fonts/YeastyFlavorsRegular.ttf") format("truetype");
+    }
+
 
     body,
     html,
@@ -21,6 +27,14 @@ export const Styles = createGlobalStyle`
         font-family: 'Motiva Sans Light', sans-serif;
     }
 
+
+    .logo {
+        font-family: "Yeasty";
+        font-size: 3rem;
+        display: flex;
+        text-shadow: 5px 5px #4a1fe0;
+        letter-spacing: 0.5rem;
+    }
 
     body {
         margin:0;
@@ -32,7 +46,7 @@ export const Styles = createGlobalStyle`
     }
 
     a:hover {
-        color: #18216d;
+        color: #3576cf;
     }
 
     input,
@@ -40,9 +54,9 @@ export const Styles = createGlobalStyle`
         border-radius: 4px;
         border: 0;
         background: rgb(241, 242, 243);
-        transition: all 0.3s ease-in-out;  
+        transition: all 0.3s ease-in-out;
         outline: none;
-        width: 100%;  
+        width: 100%;
         padding: 1rem 1.25rem;
 
         :focus-within {
@@ -58,22 +72,22 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #3576cf;
         font-size: 56px;
         line-height: 1.18;
 
         @media only screen and (max-width: 890px) {
           font-size: 47px;
         }
-      
+
         @media only screen and (max-width: 414px) {
           font-size: 32px;
         }
     }
 
     p {
-        color: #18216d;
-        font-size: 21px;        
+        color: #3576cf;
+        font-size: 21px;
         line-height: 1.41;
     }
 
@@ -90,7 +104,7 @@ export const Styles = createGlobalStyle`
             color: #2e186a;
         }
     }
-    
+
     *:focus {
         outline: none;
     }
