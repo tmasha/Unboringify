@@ -35,7 +35,7 @@ for slide in presentation.slides:
             image_path = os.path.join(foldername, image_filename)
             with open(image_path, 'wb') as img_file:
                 img_file.write(image.blob)
-    info.append({'id' : id, 'text' : text, 'image' : image_info})
+    info.append({'id' : id, 'text' : text, 'images' : image_info})
 
 json_path = os.path.join(foldername, 'data.json')
 # clear the file
